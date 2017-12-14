@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+.container{
+	margin-top: 100px;
+}
+.flex{
+	width:400px;
+	margin:auto;
+	display:flex;
+	background:#336699;
+	flex-wrap: wrap;
+	flex-direction: row;
+	text-align: center;
+	font-weight: bold;
+	font-size:20px;
+	line-height: 10px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+}
+.flex>div{
+	margin:10px;
+	padding:20px;
+	width:100px;
+	background:white;
+	border-radius: 5px;
+}
+.flex>div:hover{
+	background:lightblue;
+	cursor: pointer;
+}
+#unique{
+	flex-basis: 500px;
+	text-align: right;
+}
+input{
+	text-align:right;
+	border:none;
+}
+#unique:hover{
+	background:white;
+}
